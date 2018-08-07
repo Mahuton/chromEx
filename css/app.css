@@ -1,0 +1,57 @@
+  body, html{
+    /*background-color:tomato;*/
+    background-color:#fff;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  #container{
+    margin-left:-8px;
+    margin-top:-8px;
+  }
+
+  #date-container{
+    background-color: rgba(0,0,0,0.6);
+    width:15%;
+    border-radius:5px;
+    box-shadow: 1px 1px 10px 1px transparent;
+    height:auto;
+  }
+
+  #date-string{
+    font-size:40px;
+    font-weight: 200;
+    color:white;
+    text-align:center;
+  }
+
+  #search-container{
+    margin:auto;
+    margin-top: 20%;
+    width:50%;
+  }
+
+  #search-input{
+    background-color: transparent;
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    color:rgba(255,255,255,0.6);
+    font-size:30px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgba(255,255,255,0.6);
+  }
+
+  #search-input:focus{
+    outline: none;
+  }
+
+  ::placeholder {
+    color: rgba(255,255,255,0.8);
+    opacity: 1; /* Firefox */
+}
+
+#author-mention{
+  color:white;
+}

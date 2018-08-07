@@ -1,0 +1,29 @@
+#option-container{
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  width:250px;
+}
+
+h1{
+  font-size: 12px;
+}
+
+#option-button{
+  margin-top:10px;
+  width:100%;
+  border-radius:0px;
+}
+
+#custom-option{
+  width:100%;
+  margin-top:10px;
+}
+
+.hide-message{
+  display:none;
+}
+
+.show-message{
+  display:inline-block;
+  color:green;
+}
